@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+      <head>
+      		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+             <title>Hausaufgabe Teil II - Suchformular</title>
+             <link type="text/css" rel="stylesheet" href="suchformular.css"/>
+              <meta name="description" content="XHTML 1.0 strict Elemente"/>
+              <meta name="keywords" content="HTML,CSS,XHTML"/>
+              <meta name="author" content="Gabriel"/>
+           
+      </head>
+      
+      
+      
+      
+      
+      
+      
+       <body>            
+       				<div id="title">
+       								<h1>Wikipedia Suche</h1>
+       				</div>
+              		
+              		<form action="http://de.wikipedia.org/wiki/Spezial:Suche" >
+
+                        <fieldset id="suchform">
+                                        		<legend id="frmlegend">Suchformular</legend>
+                                     			
+                                     			<label id="frmtext">
+                                     							   <input type="text" id="eingabe"  name="search" value=""/>
+                                     							   			<script  type="text/javascript">
+                                     							   			document.getElementById("eingabe").focus();</script>
+                                     							   <br/>
+                                       								Geben Sie das gesuchte Wort  (oder mehrere gesuchte W&ouml;rter) in dieses Feld ein
+                                       			</label>
+                                    			<div id="buttonset">
+                                    			    				<input type="submit" id="artikel" name="go" value="ARTIKELSUCHE"/>
+                                        							<input type="submit" id="volltext" name="fulltext" value="VOLLTEXTSUCHE"/>
+                                        		</div>
+                                        		
+
+                        </fieldset>
+              		</form>
+              
+              <div id="footer">
+                            <a href="http://wave.webaim.org/report#/suche-gabrielfazekas.cloudcontrolled.com" title="SuchFormular">
+                            <img height="32" width="88" src="http://www.w3.org/WAI/wcag2AAA" alt="Level Triple-A conformance, W3C WAI Web Content Accessibility Guidelines 2.0"/>
+                            </a>
+              </div>
+      </body>
+</html>
